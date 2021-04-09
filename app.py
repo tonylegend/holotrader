@@ -10,7 +10,7 @@ st.title("Holo Trader")
 input_sent = st.text_area("Input Text", "", height=200)
 
 ratio = st.slider(
-    "Summarization fraction", min_value=0.0, max_value=1.0, value=0.2, step=0.01
+    "Backtest Time", min_value=0.0, max_value=1.0, value=0.2, step=0.01
 )
 
 st.write("Here's our first attempt at using data to create a table:")

@@ -33,7 +33,7 @@ st.sidebar.header('User Input Parameters')
 # est = pytz.timezone("America/New_York")
 #
 # strategy = st.sidebar.selectbox("Select a Strategy to Run", options=backend.test_list(module))
-# env = st.sidebar.selectbox("Select environment", ("PAPER", "BACKTEST", "PROD"))
+env = st.sidebar.selectbox("Select environment", ("PAPER", "BACKTEST", "PROD"))
 
 # @st.cache
 # def run_strategy():

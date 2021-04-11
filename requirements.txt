@@ -1,1 +1,6 @@
 streamlit
+python-box
+alpaca-trade-api
+plotly
+PyYAML
+backtrader
